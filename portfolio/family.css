@@ -1,0 +1,10 @@
+
+
+
+.my-family-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-image{
+width: 200px;
+}
