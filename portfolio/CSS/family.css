@@ -1,0 +1,51 @@
+
+figcaption{
+    text-align:center;
+    font-weight: bold;
+}
+
+#my-family{
+    text-align: center;
+}
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+body{
+    background-color: #b2ff9e;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 25px 25px; 
+}
+
+
+.grid-image{
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15%;
+    margin: 10%;
+}
+h3{
+    color: #086375;
+    padding: 20px;
+    text-align: center;
+}
+footer{
+    background-color: #086375;
+    height: 50px;
+    color: #b2ff9e;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+figcaption{
+    color:#086375;
+    text-align: center;
+}
